@@ -6,7 +6,9 @@
 .header{
     background-color: silver;
 }
-
+.all{
+    display: block;
+}
 .personinfo{
     display: flex;
     justify-content: space-between;
