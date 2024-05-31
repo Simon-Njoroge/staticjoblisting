@@ -12,10 +12,10 @@
 .personinfo{
     display: flex;
     justify-content: space-between;
-    margin: 2em 10em;
+    margin: 2em 20em;
     padding: 20px;
     border: 1px solid gainsboro;
-    border-left: 2px solid green;
+    border-left: 5px solid green;
     border-radius: 10px;
 }
 .leftformat{
@@ -67,4 +67,42 @@
     cursor: pointer;
    background-color: green;
    color: white;
+}
+@media only screen and (max-width:768px){
+    .personinfo{
+        display: block;
+        justify-content: space-between;
+        margin:30px 20px;
+        padding: 5px;
+        border: 1px solid gainsboro;
+        border-left: 5px solid green;
+        border-radius: 10px;
+    }
+    .leftformat{
+        display: block;
+        font-size: 25px;
+        padding: 10px;
+        border-bottom: 1px solid gray;
+    }
+    .buttons{
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+    .buttons button{
+        font-size: 20px;
+        cursor: pointer;
+        color: green;
+        border: none;
+        background-color: rgb(196, 194, 194);
+        padding: 5px;
+        border-radius: 3px;
+        margin-left: 20px;
+        padding-left: 20px;
+    }
+    .img{
+        top: -40px;
+        position: relative;
+    }
 }
