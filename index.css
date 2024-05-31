@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header{
+    background-color: silver;
+}
+
+.personinfo{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 10em;
+    padding: 20px;
+    border: 1px solid gainsboro;
+    border-left: 2px solid green;
+    border-radius: 10px;
+}
+.leftformat{
+    display: flex;
+}
+.info{
+    padding-left: 20px;
+}
+.positions{
+    display: flex;
+    column-gap: 1em;
+}
+.positions p:nth-child(1){
+    color: green;
+    cursor: pointer;
+}
+.positions p:nth-child(2){
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 2px;
+    cursor: pointer;
+}
+.positions p:nth-child(3){
+    background-color: black;
+    border-radius: 10px;
+    padding: 2px;
+    color: white;
+    cursor: pointer;
+}
+.time{
+    display: flex;
+    column-gap: 1em;
+    color: gray;
+}
+.buttons{
+    align-content: center;
+    
+}
+.buttons button{
+    cursor: pointer;
+    color: green;
+    border: none;
+    background-color: rgb(196, 194, 194);
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+.buttons button:hover{
+    cursor: pointer;
+   background-color: green;
+   color: white;
+}
